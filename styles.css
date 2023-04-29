@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://wallpapercave.com/wp/PO6cjaY.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-image: url("https://cdn.wallpapersafari.com/32/97/bZrevY.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    flex-basis: 100px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .input-group input,
+  .input-group select {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    margin-left: 10px;
+    flex-grow: 1;
+  }
+  
+  .input-group input:hover,
+  .input-group select:hover {
+    background-color: #e6e6e6;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background-image: url("button-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
